@@ -5,6 +5,18 @@ A Super Mario Bros. level 1 clone for the desktop and Android game built in **JA
 
 ----------
 
+#### Development Environment Setup Instructions
+Setting Up Andriod Studio 
+1. Edit Run/Debug Configurations
+2. Add a application configuration
+  A. Name: desktop
+  B. Main Class: net.kaparis.game.supermariobros.desktop.DesktopLauncher
+  C. Working Directory: ../supermariobros-master/android/assets 
+3. Apply Settings. 
+4. Use the "Desktop" configuration to run and debug the game. 
+
+Note: Andriod configuration is there by default.
+
 #### Building a Distribution of the game
 Grab the source
 ```
