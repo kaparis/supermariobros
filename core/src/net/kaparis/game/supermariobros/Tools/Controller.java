@@ -70,6 +70,9 @@ public class Controller {
                     case Input.Keys.RIGHT:
                         rightPressed = false;
                         break;
+                    case Input.Keys.SPACE:
+                        bPressed = false;
+                        break;
                 }
                 return true;
             }
